@@ -1,4 +1,4 @@
-FROM python:latest
+FROM python:3
 
-COPY app.py ~/
-RUN python ./app.py
+ADD app.py /
+
